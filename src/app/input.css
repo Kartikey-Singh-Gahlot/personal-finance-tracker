@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+
+.darkTheme{
+    @apply bg-black text-amber-50;
+}
+
+.lightTheme{
+    @apply bg-white text-black;
+}
+
+
+.mainWrapper{
+    @apply h-fit w-full  box-border flex flex-col overflow-x-clip;
+}
+
+.headerWrapper{
+    @apply px-4 py-3 w-full sticky top-0 flex justify-between items-center;
+}
+
+.pages{
+    @apply   h-screen w-full box-border ;
+}
+
+
+
+
