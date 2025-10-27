@@ -19,7 +19,7 @@
 }
 
 .pages{
-    @apply   h-screen w-full box-border ;
+    @apply  h-fit w-full box-border ;
 }
 
 
